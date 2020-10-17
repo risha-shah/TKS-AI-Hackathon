@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fredoka+One&family=Prompt:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 13px;
+}
+.popupDiv {
+    width: 300px;
+    min-height: 150px;
+    max-height: 700px;
+}
+
+h1 {
+    text-align: center
+}
+
+a.button{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.3em solid rgba(255,255,255,1);
+    border-radius: 2em;
+    width: 50%;
+    text-decoration:none;
+    font-family: 'Prompt', sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    font-size: large;
+    transition: all 0.2s;
+}
+a.button:hover{
+    border-color: rgba(255,255,255,0);
+}
+@media all and (max-width:30em){
+    a.button{
+        display:block;
+        margin:0.2em auto;
+    }
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    width: 40%;
+}
+
+.credibilitylogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #020546;
+    text-align: center;
+}
+
+#verifying {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
